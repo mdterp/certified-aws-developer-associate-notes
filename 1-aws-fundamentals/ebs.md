@@ -27,6 +27,11 @@
 - When in doubt always consult the AWS documentation
 -  Only GP2 and IO1 can be used as boot volumes
 
+#### EBS Multi-Attach -io1/io2 family
+- Multi-Attach across the same zone
+- Each instance has the full R/W perms to the high perf volume
+- Up to 16 EC2 Instances at a time
+
 #### EBS Volume Types Use Cases
 1. GP2
 - Recommended for most workloads 
